@@ -116,7 +116,6 @@
     "webpack": "^5.99.9"
   },
   "scripts": {
-    "prepare": "grunt",
     "start": "grunt",
     "test": "grunt test",
     "reference": "grunt reference",
