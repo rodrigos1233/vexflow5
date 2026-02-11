@@ -1,5 +1,5 @@
 /*!
- * VexFlow 5.1.0   2026-01-15T22:49:03.555Z   12e123489ff0a7f98a99825f617456313e3fe76b
+ * VexFlow 5.1.0   2026-02-11T17:33:14.016Z   7d1f8fb0f442db32ac640136e155802221c1baf7
  * Copyright (c) 2023-present VexFlow contributors (see https://github.com/vexflow/vexflow/blob/main/AUTHORS.md).
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -22968,7 +22968,7 @@ const generateKeySignatures = () => {
     const keySignatures = {};
     for (let i = 1; i <= 14; i++) {
         keySignatures[`flats_${i}`] = { accidental: 'b', num: i };
-        keySignatures[`sharps_${i}`] = { accidental: 'b', num: i };
+        keySignatures[`sharps_${i}`] = { accidental: '#', num: i };
     }
     keySignatures['flats_0'] = { num: 0 };
     keySignatures['sharps_0'] = { num: 0 };
@@ -26449,8 +26449,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 // Gruntfile.js uses string-replace-loader to replace these values during build time.
 const VERSION = '5.1.0';
-const ID = '12e123489ff0a7f98a99825f617456313e3fe76b';
-const DATE = '2026-01-15T22:49:03.555Z';
+const ID = '7d1f8fb0f442db32ac640136e155802221c1baf7';
+const DATE = '2026-02-11T17:33:14.016Z';
 
 
 /***/ }),
