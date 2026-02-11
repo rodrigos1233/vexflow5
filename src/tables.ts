@@ -57,7 +57,7 @@ const generateKeySignatures = (): KeySignatures => {
 
   for (let i = 1; i <= 14; i++) {
     keySignatures[`flats_${i}`] = { accidental: 'b', num: i };
-    keySignatures[`sharps_${i}`] = { accidental: 'b', num: i };
+    keySignatures[`sharps_${i}`] = { accidental: '#', num: i };
   }
 
   keySignatures['flats_0'] = { num: 0 };
